@@ -57,7 +57,7 @@ def text_report(filename):
 
 report = text_report('text.txt')
 
-with open('qqq.txt', 'w', encoding='utf-8') as f:
+with open('report.txt', 'w', encoding='utf-8') as f:
     for key, value in report.items():
         print(f"{key}: {value}")
         f.write(f"{key}: {value}\n")
